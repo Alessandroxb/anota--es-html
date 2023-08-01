@@ -1,0 +1,56 @@
+body{
+    font-family: Verdana;
+}
+h1{
+    text-align: center;
+   
+}
+hr{
+    border: 5px solid green;
+    
+}
+
+/* FORMATAÇÃO 1 */
+
+ table, tr, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px
+
+} 
+
+table{
+    margin: 10px auto;
+    width: 50%;
+    border-collapse: collapse;
+}
+
+/* FORMATAÇÃO 2 */
+th, td{
+    border-bottom: 1px solid gray;
+     padding: 10px; 
+     text-align: center;
+    }
+
+/* FORMATAÇÃO 3 */
+th{
+    background-color: dodgerblue;
+     color: white;
+    }
+
+th, td{
+    padding: 10px; 
+    text-align: center;
+}
+
+tbody > tr:nth-child(2n){
+    background-color: cyan;
+    
+
+}
+
+tbody > tr:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
